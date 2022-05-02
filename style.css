@@ -10,12 +10,6 @@
     src: url(/Voyage-Regular.ttf);
 }
 
-/* VOYAGE BOLD */
-@font-face {
-    font-family: 'Voyage Bold';
-    src: url(/Voyage-Bold.ttf);
-}
-
 /* GILROY */
 @font-face {
     font-family: 'Gilroy';
