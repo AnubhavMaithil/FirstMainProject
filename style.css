@@ -1,19 +1,19 @@
 /* NIMBUS */
 @font-face {
     font-family: 'Nimbus';
-    src: url(/Nimbus-Sans-D-OT-Bold_32747.ttf);
+    src: url(./Nimbus-Sans-D-OT-Bold_32747.ttf);
 }
 
 /* VOYAGE REGULAR */
 @font-face {
     font-family: 'Voyage Regular';
-    src: url(/Voyage-Regular.ttf);
+    src: url(./Voyage-Regular.ttf);
 }
 
 /* GILROY */
 @font-face {
     font-family: 'Gilroy';
-    src: url(/Gilroy-Medium.ttf);
+    src: url(./Gilroy-Medium.ttf);
     font-weight: 500;
 }
 
