@@ -618,11 +618,21 @@ body::-webkit-scrollbar {
     }
 
     #four #imgs{
+        width: 82vw;
+        flex-wrap: wrap;
         height: 5vh;
         margin-top: 50%;
     }
+    #img{
+        width: 15vw;
+        margin-top: 10px;
+        margin-left: 5px;
+    }
     #four>h1 {
-        margin-bottom: 30%;
+        margin-bottom: 50%;
+    }
+    #four h1 span{
+        font-size: 17vw;
     }
 
     #footer{
