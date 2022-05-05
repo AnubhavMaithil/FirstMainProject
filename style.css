@@ -620,7 +620,7 @@ body::-webkit-scrollbar {
     #four #imgs{
         width: 82vw;
         flex-wrap: wrap;
-        height: 5vh;
+        height: 8vh;
         margin-top: 50%;
     }
     #img{
