@@ -644,10 +644,23 @@ body::-webkit-scrollbar {
     }
 
     #hidmenu h1{
-        font-size: 15vw;
+        font-size: 12vw;
     }
     #hidmenu i{
         font-size: 5vw;
     }
-
+    #hidmenu{
+        flex-direction: column-reverse;
+    }
+    #tagimg{
+        margin-top: 10%;
+        height: 40%;
+        width: 65%;
+    }
+    .tags .h1{
+        justify-content: center;
+    }
+    .tags{
+        margin-bottom: 10%;
+    }
 }
