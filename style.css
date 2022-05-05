@@ -527,7 +527,7 @@ body::-webkit-scrollbar {
 }
 
 
-/* ***************************** RESPONSIVE ******************************************** */
+/* ***************************** RESPONSIVE 500px width ******************************************** */
 @media(max-width: 500px) {
     #nav {
         padding: 22px 40px;
@@ -539,7 +539,7 @@ body::-webkit-scrollbar {
     #progress{
         height: 4px;
     }
-    
+
     #herof h1 {
         flex-direction: column;
         font-size: 45vw;
