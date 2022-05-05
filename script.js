@@ -155,6 +155,17 @@ document.querySelectorAll("#topf a").forEach(function(link){
     })
 })
 
+// ***************************** HIDDEN MANU LINKS ********************************************
+document.querySelectorAll(".tags h1").forEach(function(tag){
+    tag.addEventListener("mouseover", function(dets){
+        gsap.to(".tagimgs", {
+            x: dets.target.dataset.shift * -100 + "%",
+            duration: 2,
+            ease: "expo"
+        })
+    })
+})
+
 // ***************************** HIDDEN MENU ********************************************
 document.querySelector("#nav i").addEventListener("click", function(){
     document.querySelector("#hidmenu").style.bottom = "0%";
