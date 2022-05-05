@@ -126,22 +126,22 @@ tl2
 .to("#img",{
     opacity: 1,
     stagger: .3,
-    ease: Power3.easeInOut
+    ease: Power3
 }, "a")
 .to("#img",{
     opacity: 0,
     stagger: .3,
-    ease: Power3.easeInOut
+    ease: Power3
 }, "a")
 .to("#four h1 span",{
     y: -40,
     stagger: .3,
-    ease: Power3.easeInOut
+    ease: Power3
 }, "a")
 .to("#four h1 span",{
     y: "0",
     stagger: .3,
-    ease: Power3.easeInOut
+    ease: Power3
 }, "a")
 
 // ***************************** LINKS ********************************************
