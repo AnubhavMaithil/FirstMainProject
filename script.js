@@ -145,7 +145,7 @@ tl2
 }, "a")
 
 // ***************************** LINKS ********************************************
-document.querySelectorAll("#topf a").forEach(function(link){
+document.querySelectorAll("#topf h4").forEach(function(link){
     link.addEventListener("mouseover", function(dets){
         gsap.to(".imgbox", {
             x: dets.target.dataset.index * -100 + "%",
