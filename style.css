@@ -141,7 +141,7 @@ body::-webkit-scrollbar {
     width: 0%;
     height: 10px;
     z-index: 99999;
-    background-color: white;
+    background-color: rgb(162, 0, 255);
 }
 
 /* ***************************** NAVIGATION BAR ******************************************** */
@@ -538,6 +538,7 @@ body::-webkit-scrollbar {
 
     #progress{
         height: 4px;
+        background-color: rgb(0, 221, 255);
     }
 
     #herof h1 {
